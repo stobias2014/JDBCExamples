@@ -1,0 +1,26 @@
+package com.tobias.saul.tutorialspoint.jdbc;
+
+//import required packages
+import java.sql.Connection;
+import java.sql.Statement;
+
+public class JDBCFirstExample {
+	//JDBC driver name and DB url
+	static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
+	static final String DB_URL = "jdbc:mysql://localhost/EMP";
+	
+	// database credentials
+	static final String USER = "root";
+	static final String PASSWORD = "password";
+	
+	public static void main(String[] args) {
+		// for communication between app and DB
+		Connection conn = null;
+		// for SQL statements
+		Statement stmnt = null;
+		
+		
+	}
+	
+
+}

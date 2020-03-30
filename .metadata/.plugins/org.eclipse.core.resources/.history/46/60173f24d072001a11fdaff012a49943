@@ -1,0 +1,7 @@
+package com.tobias.saul.tutorialspoint.jdbc;
+
+import java.sql.*;
+
+public class JDBCFirstExample {
+
+}
